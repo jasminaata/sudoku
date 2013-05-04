@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2105B68513C72255006DC112 /* Option-View.png in Resources */ = {isa = PBXBuildFile; fileRef = 2105B68413C72255006DC112 /* Option-View.png */; };
+		2105B68813C73F9E006DC112 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2105B68713C73F9E006DC112 /* QuartzCore.framework */; };
+		2105B6A213C9E57B006DC112 /* View-Start.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2105B6A113C9E57B006DC112 /* View-Start.jpg */; };
+		2109318B13C2A85A004B2AC1 /* NOTIFY_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2109318A13C2A85A004B2AC1 /* NOTIFY_1@2x.png */; };
+		21109B9913D6C63E004DC9C4 /* Icon-Posible.png in Resources */ = {isa = PBXBuildFile; fileRef = 21109B9813D6C63E004DC9C4 /* Icon-Posible.png */; };
+		21109B9B13D6CCC9004DC9C4 /* Icon-Eraser.png in Resources */ = {isa = PBXBuildFile; fileRef = 21109B9A13D6CCC9004DC9C4 /* Icon-Eraser.png */; };
+		21109B9D13D6DE76004DC9C4 /* Option-Newspaper.png in Resources */ = {isa = PBXBuildFile; fileRef = 21109B9C13D6DE76004DC9C4 /* Option-Newspaper.png */; };
+		21109B9F13D6E678004DC9C4 /* View-Hello.png in Resources */ = {isa = PBXBuildFile; fileRef = 21109B9E13D6E678004DC9C4 /* View-Hello.png */; };
+		21109BA313D6EE0A004DC9C4 /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 21109BA213D6EE0A004DC9C4 /* AppIcon.png */; };
+		21109BA513D6EFFE004DC9C4 /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 21109BA413D6EFFE004DC9C4 /* AppIcon.png */; };
+		21109BA713D6F105004DC9C4 /* AppIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 21109BA613D6F105004DC9C4 /* AppIcon@2x.png */; };
+		21109BA913D701E0004DC9C4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 21109BA813D701E0004DC9C4 /* Default@2x.png */; };
+		2183C41013CB37E90093DEB6 /* Icon-Menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 2183C40F13CB37E90093DEB6 /* Icon-Menu.png */; };
+		2183C41313CB41140093DEB6 /* Icon-Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 2183C41113CB41140093DEB6 /* Icon-Selected.png */; };
+		2183C41413CB41140093DEB6 /* Icon-Unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 2183C41213CB41140093DEB6 /* Icon-Unselected.png */; };
+		2183C41613CC57210093DEB6 /* View-Hint.png in Resources */ = {isa = PBXBuildFile; fileRef = 2183C41513CC57210093DEB6 /* View-Hint.png */; };
+		218BDFFA13A4779F002F5486 /* MySudokuClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 218BDFF913A4779F002F5486 /* MySudokuClass.m */; };
+		218BDFFF13A47F42002F5486 /* SudokuFile.txt in Resources */ = {isa = PBXBuildFile; fileRef = 218BDFFE13A47F42002F5486 /* SudokuFile.txt */; };
 		21B61B03139F5A82001D8544 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21B61B02139F5A82001D8544 /* UIKit.framework */; };
 		21B61B05139F5A82001D8544 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21B61B04139F5A82001D8544 /* Foundation.framework */; };
 		21B61B07139F5A82001D8544 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21B61B06139F5A82001D8544 /* CoreGraphics.framework */; };
@@ -22,6 +40,9 @@
 		21B61B2D139F5A83001D8544 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 21B61B2B139F5A83001D8544 /* InfoPlist.strings */; };
 		21B61B30139F5A83001D8544 /* sudokuTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 21B61B2F139F5A83001D8544 /* sudokuTests.h */; };
 		21B61B32139F5A83001D8544 /* sudokuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B61B31139F5A83001D8544 /* sudokuTests.m */; };
+		21D7DA2613AA28AC0027047F /* ButtonPic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 21D7DA2513AA28AC0027047F /* ButtonPic.jpg */; };
+		21D7DA2F13AAD47C0027047F /* ButtonPicBottom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 21D7DA2713AAD47C0027047F /* ButtonPicBottom.jpg */; };
+		21FB0E9B13C5C5B900BA7CAD /* Option-Play.png in Resources */ = {isa = PBXBuildFile; fileRef = 21FB0E9A13C5C5B900BA7CAD /* Option-Play.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,26 +56,48 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2105B68413C72255006DC112 /* Option-View.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Option-View.png"; path = "Pics/Option-View.png"; sourceTree = "<group>"; };
+		2105B68713C73F9E006DC112 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2105B6A113C9E57B006DC112 /* View-Start.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "View-Start.jpg"; path = "Pics/View-Start.jpg"; sourceTree = "<group>"; };
+		2109318A13C2A85A004B2AC1 /* NOTIFY_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NOTIFY_1@2x.png"; sourceTree = "<group>"; };
+		21109B9813D6C63E004DC9C4 /* Icon-Posible.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Posible.png"; path = "Pics/Icon-Posible.png"; sourceTree = "<group>"; };
+		21109B9A13D6CCC9004DC9C4 /* Icon-Eraser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Eraser.png"; path = "Pics/Icon-Eraser.png"; sourceTree = "<group>"; };
+		21109B9C13D6DE76004DC9C4 /* Option-Newspaper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Option-Newspaper.png"; path = "Pics/Option-Newspaper.png"; sourceTree = "<group>"; };
+		21109B9E13D6E678004DC9C4 /* View-Hello.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "View-Hello.png"; path = "Pics/View-Hello.png"; sourceTree = "<group>"; };
+		21109BA213D6EE0A004DC9C4 /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AppIcon.png; path = Pics/AppIcon.png; sourceTree = "<group>"; };
+		21109BA413D6EFFE004DC9C4 /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon.png; sourceTree = "<group>"; };
+		21109BA613D6F105004DC9C4 /* AppIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon@2x.png"; sourceTree = "<group>"; };
+		21109BA813D701E0004DC9C4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		2183C40F13CB37E90093DEB6 /* Icon-Menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Menu.png"; path = "Pics/Icon-Menu.png"; sourceTree = "<group>"; };
+		2183C41113CB41140093DEB6 /* Icon-Selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Selected.png"; path = "Pics/Icon-Selected.png"; sourceTree = "<group>"; };
+		2183C41213CB41140093DEB6 /* Icon-Unselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Unselected.png"; path = "Pics/Icon-Unselected.png"; sourceTree = "<group>"; };
+		2183C41513CC57210093DEB6 /* View-Hint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "View-Hint.png"; path = "Pics/View-Hint.png"; sourceTree = "<group>"; };
+		218BDFF813A4779F002F5486 /* MySudokuClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySudokuClass.h; sourceTree = "<group>"; };
+		218BDFF913A4779F002F5486 /* MySudokuClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySudokuClass.m; sourceTree = "<group>"; };
+		218BDFFE13A47F42002F5486 /* SudokuFile.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SudokuFile.txt; sourceTree = "<group>"; };
 		21B61AFE139F5A82001D8544 /* sudoku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sudoku.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21B61B02139F5A82001D8544 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		21B61B04139F5A82001D8544 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		21B61B06139F5A82001D8544 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		21B61B0A139F5A82001D8544 /* sudoku-Info.plist */ = {isa = PBXFileReference; path = "sudoku-Info.plist"; sourceTree = "<group>"; };
+		21B61B0A139F5A82001D8544 /* sudoku-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sudoku-Info.plist"; sourceTree = "<group>"; };
 		21B61B0C139F5A82001D8544 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		21B61B0E139F5A82001D8544 /* sudoku-Prefix.pch */ = {isa = PBXFileReference; path = "sudoku-Prefix.pch"; sourceTree = "<group>"; };
+		21B61B0E139F5A82001D8544 /* sudoku-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sudoku-Prefix.pch"; sourceTree = "<group>"; };
 		21B61B0F139F5A82001D8544 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		21B61B11139F5A82001D8544 /* sudokuAppDelegate.h */ = {isa = PBXFileReference; path = sudokuAppDelegate.h; sourceTree = "<group>"; };
+		21B61B11139F5A82001D8544 /* sudokuAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sudokuAppDelegate.h; sourceTree = "<group>"; };
 		21B61B12139F5A82001D8544 /* sudokuAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sudokuAppDelegate.m; sourceTree = "<group>"; };
 		21B61B15139F5A82001D8544 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		21B61B17139F5A82001D8544 /* sudokuViewController.h */ = {isa = PBXFileReference; path = sudokuViewController.h; sourceTree = "<group>"; };
+		21B61B17139F5A82001D8544 /* sudokuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sudokuViewController.h; sourceTree = "<group>"; };
 		21B61B18139F5A83001D8544 /* sudokuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sudokuViewController.m; sourceTree = "<group>"; };
 		21B61B1B139F5A83001D8544 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/sudokuViewController.xib; sourceTree = "<group>"; };
 		21B61B22139F5A83001D8544 /* sudokuTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sudokuTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		21B61B2A139F5A83001D8544 /* sudokuTests-Info.plist */ = {isa = PBXFileReference; path = "sudokuTests-Info.plist"; sourceTree = "<group>"; };
+		21B61B2A139F5A83001D8544 /* sudokuTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sudokuTests-Info.plist"; sourceTree = "<group>"; };
 		21B61B2C139F5A83001D8544 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		21B61B2E139F5A83001D8544 /* sudokuTests-Prefix.pch */ = {isa = PBXFileReference; path = "sudokuTests-Prefix.pch"; sourceTree = "<group>"; };
+		21B61B2E139F5A83001D8544 /* sudokuTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sudokuTests-Prefix.pch"; sourceTree = "<group>"; };
 		21B61B2F139F5A83001D8544 /* sudokuTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sudokuTests.h; sourceTree = "<group>"; };
 		21B61B31139F5A83001D8544 /* sudokuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sudokuTests.m; sourceTree = "<group>"; };
+		21D7DA2513AA28AC0027047F /* ButtonPic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ButtonPic.jpg; path = Pics/ButtonPic.jpg; sourceTree = "<group>"; };
+		21D7DA2713AAD47C0027047F /* ButtonPicBottom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ButtonPicBottom.jpg; path = Pics/ButtonPicBottom.jpg; sourceTree = "<group>"; };
+		21FB0E9A13C5C5B900BA7CAD /* Option-Play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Option-Play.png"; path = "Pics/Option-Play.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2105B68813C73F9E006DC112 /* QuartzCore.framework in Frameworks */,
 				21B61B03139F5A82001D8544 /* UIKit.framework in Frameworks */,
 				21B61B05139F5A82001D8544 /* Foundation.framework in Frameworks */,
 				21B61B07139F5A82001D8544 /* CoreGraphics.framework in Frameworks */,
@@ -81,9 +125,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		218BDFFD13A47F11002F5486 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				218BDFFE13A47F42002F5486 /* SudokuFile.txt */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		21B61AF3139F5A82001D8544 = {
 			isa = PBXGroup;
 			children = (
+				21109BA813D701E0004DC9C4 /* Default@2x.png */,
+				21109BA613D6F105004DC9C4 /* AppIcon@2x.png */,
+				21109BA413D6EFFE004DC9C4 /* AppIcon.png */,
 				21B61B08139F5A82001D8544 /* sudoku */,
 				21B61B28139F5A83001D8544 /* sudokuTests */,
 				21B61B01139F5A82001D8544 /* Frameworks */,
@@ -103,6 +158,7 @@
 		21B61B01139F5A82001D8544 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2105B68713C73F9E006DC112 /* QuartzCore.framework */,
 				21B61B02139F5A82001D8544 /* UIKit.framework */,
 				21B61B04139F5A82001D8544 /* Foundation.framework */,
 				21B61B06139F5A82001D8544 /* CoreGraphics.framework */,
@@ -115,11 +171,14 @@
 			children = (
 				21B61B11139F5A82001D8544 /* sudokuAppDelegate.h */,
 				21B61B12139F5A82001D8544 /* sudokuAppDelegate.m */,
-				21B61B14139F5A82001D8544 /* MainWindow.xib */,
 				21B61B17139F5A82001D8544 /* sudokuViewController.h */,
 				21B61B18139F5A83001D8544 /* sudokuViewController.m */,
-				21B61B1A139F5A83001D8544 /* sudokuViewController.xib */,
+				218BDFF813A4779F002F5486 /* MySudokuClass.h */,
+				218BDFF913A4779F002F5486 /* MySudokuClass.m */,
+				21B61B3B139F5AA1001D8544 /* Xib */,
+				21B61B3E139F60A0001D8544 /* Pics */,
 				21B61B09139F5A82001D8544 /* Supporting Files */,
+				218BDFFD13A47F11002F5486 /* Resources */,
 			);
 			path = sudoku;
 			sourceTree = "<group>";
@@ -153,6 +212,37 @@
 				21B61B2E139F5A83001D8544 /* sudokuTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		21B61B3B139F5AA1001D8544 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				21B61B14139F5A82001D8544 /* MainWindow.xib */,
+				21B61B1A139F5A83001D8544 /* sudokuViewController.xib */,
+			);
+			name = Xib;
+			sourceTree = "<group>";
+		};
+		21B61B3E139F60A0001D8544 /* Pics */ = {
+			isa = PBXGroup;
+			children = (
+				21109BA213D6EE0A004DC9C4 /* AppIcon.png */,
+				21109B9E13D6E678004DC9C4 /* View-Hello.png */,
+				21109B9C13D6DE76004DC9C4 /* Option-Newspaper.png */,
+				21109B9A13D6CCC9004DC9C4 /* Icon-Eraser.png */,
+				21109B9813D6C63E004DC9C4 /* Icon-Posible.png */,
+				2183C41513CC57210093DEB6 /* View-Hint.png */,
+				2183C41113CB41140093DEB6 /* Icon-Selected.png */,
+				2183C41213CB41140093DEB6 /* Icon-Unselected.png */,
+				2183C40F13CB37E90093DEB6 /* Icon-Menu.png */,
+				21FB0E9A13C5C5B900BA7CAD /* Option-Play.png */,
+				2105B68413C72255006DC112 /* Option-View.png */,
+				21D7DA2713AAD47C0027047F /* ButtonPicBottom.jpg */,
+				2105B6A113C9E57B006DC112 /* View-Start.jpg */,
+				21D7DA2513AA28AC0027047F /* ButtonPic.jpg */,
+				2109318A13C2A85A004B2AC1 /* NOTIFY_1@2x.png */,
+			);
+			name = Pics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,6 +315,25 @@
 				21B61B0D139F5A82001D8544 /* InfoPlist.strings in Resources */,
 				21B61B16139F5A82001D8544 /* MainWindow.xib in Resources */,
 				21B61B1C139F5A83001D8544 /* sudokuViewController.xib in Resources */,
+				218BDFFF13A47F42002F5486 /* SudokuFile.txt in Resources */,
+				21D7DA2613AA28AC0027047F /* ButtonPic.jpg in Resources */,
+				21D7DA2F13AAD47C0027047F /* ButtonPicBottom.jpg in Resources */,
+				2109318B13C2A85A004B2AC1 /* NOTIFY_1@2x.png in Resources */,
+				21FB0E9B13C5C5B900BA7CAD /* Option-Play.png in Resources */,
+				2105B68513C72255006DC112 /* Option-View.png in Resources */,
+				2105B6A213C9E57B006DC112 /* View-Start.jpg in Resources */,
+				2183C41013CB37E90093DEB6 /* Icon-Menu.png in Resources */,
+				2183C41313CB41140093DEB6 /* Icon-Selected.png in Resources */,
+				2183C41413CB41140093DEB6 /* Icon-Unselected.png in Resources */,
+				2183C41613CC57210093DEB6 /* View-Hint.png in Resources */,
+				21109B9913D6C63E004DC9C4 /* Icon-Posible.png in Resources */,
+				21109B9B13D6CCC9004DC9C4 /* Icon-Eraser.png in Resources */,
+				21109B9D13D6DE76004DC9C4 /* Option-Newspaper.png in Resources */,
+				21109B9F13D6E678004DC9C4 /* View-Hello.png in Resources */,
+				21109BA313D6EE0A004DC9C4 /* AppIcon.png in Resources */,
+				21109BA513D6EFFE004DC9C4 /* AppIcon.png in Resources */,
+				21109BA713D6F105004DC9C4 /* AppIcon@2x.png in Resources */,
+				21109BA913D701E0004DC9C4 /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +372,7 @@
 				21B61B10139F5A82001D8544 /* main.m in Sources */,
 				21B61B13139F5A82001D8544 /* sudokuAppDelegate.m in Sources */,
 				21B61B19139F5A83001D8544 /* sudokuViewController.m in Sources */,
+				218BDFFA13A4779F002F5486 /* MySudokuClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +434,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -333,6 +444,8 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -341,13 +454,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 			};
 			name = Release;
@@ -361,6 +477,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "sudoku/sudoku-Prefix.pch";
 				INFOPLIST_FILE = "sudoku/sudoku-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -374,6 +491,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "sudoku/sudoku-Prefix.pch";
 				INFOPLIST_FILE = "sudoku/sudoku-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
@@ -443,6 +561,7 @@
 				21B61B37139F5A83001D8544 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21B61B38139F5A83001D8544 /* Build configuration list for PBXNativeTarget "sudokuTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +570,7 @@
 				21B61B3A139F5A83001D8544 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
